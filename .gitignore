@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Notebooks and experiment tools
+.ipynb_checkpoints/
+wandb/
+runs/
+outputs/
+checkpoints/
+
+# Large generated media and model artifacts
+*.ckpt
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.mp4
+*.mov
+*.webm
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Local scratch files
+tmp/
