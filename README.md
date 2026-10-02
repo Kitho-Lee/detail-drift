@@ -13,6 +13,7 @@
   <img alt="Status: research planning" src="https://img.shields.io/badge/status-research_planning-334155?style=flat-square" />
   <img alt="Method: training-free" src="https://img.shields.io/badge/method-training--free-0f766e?style=flat-square" />
   <img alt="Domain: video generation" src="https://img.shields.io/badge/domain-video_generation-1d4ed8?style=flat-square" />
+  <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-b45309?style=flat-square" />
 </p>
 
 ---
@@ -101,6 +102,7 @@ The public repository focuses on the project vision. Detailed experimental proto
 .
 ├── assets/                                  # Repository visuals
 ├── CONTRIBUTING.md                          # Collaboration guidance
+├── LICENSE                                  # MIT License
 └── README.md                                # Project introduction
 ```
 
@@ -119,7 +121,7 @@ We welcome research discussion, reproducibility feedback, product-image datasets
 
 ## License and citation
 
-A software/data license and formal citation metadata have not yet been selected. Until they are added, the repository contents should not be assumed to carry an open-source license. This should be resolved before public release or external contribution.
+This repository is released under the [MIT License](LICENSE). Formal citation metadata will be added when the research output is ready to cite.
 
 ---
 
