@@ -82,7 +82,7 @@ The study is designed around long-horizon image-to-video generation for e-commer
 - motion, visual quality, and chunk-boundary checks to catch trivial or frozen solutions;
 - human acceptability judgments and cost per acceptable second.
 
-The main hypotheses, metrics, gates, compute assumptions, and 28-week execution plan are documented in the [full research plan](Research-Plan-26-09-29_stu_Video.md).
+The public repository focuses on the project vision. Detailed experimental protocols and internal planning materials will be released only when they are ready for reproducible use.
 
 ## Project status
 
@@ -95,18 +95,13 @@ The main hypotheses, metrics, gates, compute assumptions, and 28-week execution 
 | RGCR prototype | Not started |
 | Full evaluation and human study | Not started |
 
-See the [public-facing research overview](docs/RESEARCH_OVERVIEW.md) for the concise scope and the [roadmap](docs/ROADMAP.md) for milestone gates.
-
 ## Repository map
 
 ```text
 .
 ├── assets/                                  # Repository visuals
-├── docs/
-│   ├── RESEARCH_OVERVIEW.md                 # Concise project brief
-│   └── ROADMAP.md                           # Milestones and decision gates
-├── Research-Plan-26-09-29_stu_Video.md      # Detailed research plan
-└── v1_Temporal_Drift_AI_Video_Generation.pdf # Original project brief
+├── CONTRIBUTING.md                          # Collaboration guidance
+└── README.md                                # Project introduction
 ```
 
 Implementation, experiment configuration, and reproducibility assets will be added as the corresponding phases begin.
@@ -121,13 +116,6 @@ This project sits at the intersection of:
 - trustworthy generative media for e-commerce.
 
 We welcome research discussion, reproducibility feedback, product-image datasets with clear usage rights, and collaboration on human evaluation. Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening an issue or proposing a change.
-
-## Documents
-
-- [Detailed research plan](Research-Plan-26-09-29_stu_Video.md)
-- [Original project brief](v1_Temporal_Drift_AI_Video_Generation.pdf)
-- [Research overview](docs/RESEARCH_OVERVIEW.md)
-- [Roadmap and gates](docs/ROADMAP.md)
 
 ## License and citation
 
